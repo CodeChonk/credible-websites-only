@@ -1,0 +1,15 @@
+1.0---------------
+tests work, version trimmed for publishing.
+
+1.0.1-----------------------------------
+removed activeTab permission. Wasn't actually needed
+
+1.0.2----------------------------------------------
+added in a hardcoded exceptions list for kahoot.it
+
+1.1.0----------------------------------------------
+changed implementation from chrome.tabs to injecting a javascript redirect hoping to use the blocked hosts extension. 
+
+1.1.1---------------------------------------------------------------------
+added ip addresses to the exception list.
+removed hardcoded exceptions array, can now handle execptions through blocked hosts list.

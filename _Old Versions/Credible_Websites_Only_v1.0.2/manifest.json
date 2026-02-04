@@ -1,0 +1,22 @@
+{
+  "name": "Credible Websites Only: Top Level Domain Whitelist",
+  "description": "This extension is a zero-configuration content blocker. It allows access only to websites with 'credible' top-level domains.",
+  "version": "1.0.2",
+  "version_name": "1.0.2",
+  "author": "Zachary Darland",
+  "manifest_version": 3,
+  "minimum_chrome_version": "111",
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16" : "assets/logo.png",
+    "24" : "assets/logo.png",
+    "32" : "assets/logo.png",
+    "128": "assets/logo.png"
+  }
+}
